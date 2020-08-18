@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /SpringBootDemo
+debug: false
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+  datasource:
+    url: http://localhost:3306/zkthink_mall
+    usrename: root
+    password: a123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 500
+        min-idle: 0
+
